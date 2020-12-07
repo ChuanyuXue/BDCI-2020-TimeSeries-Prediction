@@ -13,6 +13,19 @@ This repository contains the 12th solution on BDCI 2020 Challenges for Congestio
 
 ## 文件结构
 
+    │  1_data_formating.ipynb                       ## Loading the txt files into the structured csv files
+    │  2_matrix_generation.ipynb                    ## Generating the time series matrix Y from the csv files 
+    │  3_matrix_factorization.ipynb                 ## Learning the latent factors P & Q from the matrix Y
+    │  4_feature_engineering.ipynb                  ## Extracting other features from the time series matrix Y
+    │  5_Implicit_feedback.ipynb                    ## Modeling the latent factors for implicit feedback
+    │  LICENSE
+    │  README.md
+    │  structure.txt
+    │  
+    └─data                                          ## Containing origin data and intermedidate files
+        └─traffic
+        
+        
 ## Python库坏境依赖
 
 ## 声明
