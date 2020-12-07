@@ -7,7 +7,7 @@ This repository contains the 12th solution on BDCI 2020 Challenges for Congestio
 
 赛题链接：https://www.datafountain.cn/competitions/466
 
-解决方案blog: 
+解决方案blog: https://zhuanlan.zhihu.com/p/333908754
 
 数据集下载链接: https://outreach.didichuxing.com/app-vue/dataList
 
