@@ -28,6 +28,15 @@ This repository contains the 12th solution on BDCI 2020 Challenges for Congestio
         
 ## Python库坏境依赖
 
+    catboost==0.24
+    networkx==2.1
+    numpy==1.18.5
+    pandas==1.1.0
+    scikit-learn==0.23.2
+    tqdm==4.48.2
+    python-louvain==0.14
+    seaborn==0.10.1
+
 ## 声明
 
 
