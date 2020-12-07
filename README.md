@@ -11,10 +11,10 @@ This repository contains the 12th solution on BDCI 2020 Challenges for Congestio
 
 ## 解决方案
 
-1. 如下面文件结构所示，我们首先在 1_data_formating.ipynb 中把比赛方提供的txt数据转化为更容易处理的csv格式。
-2. 2_matrix_generation.ipynb 文件把数据中出现过的所有时间点的状态放到一个(32 x 15584 x 720)的矩阵中。
-3. 3_matrix_factorization.ipynb 采用交替最小二乘法把矩阵分解为一个道路隐含因子矩阵与一个时间隐含因子矩阵，并采用周期因子法预测未来的时间隐含因子。
-4. 4_feature_engineering.ipynb 在原始数据中进行统计性特征描述，弥补矩阵分解中造成的信息损失。
+1. 如下面文件结构所示，我们首先在 1_data_formating.ipynb 中把比赛方提供的txt数据转化为更容易处理的csv格式，生成名为train_table_\*.csv以及test_table.csv的中间文件。
+2. 2_matrix_generation.ipynb 文件把数据中出现过的所有时间点的状态放到一个(32 x 15584 x 720)的矩阵中，生成mat.npy的中间文件。
+3. 3_matrix_factorization.ipynb 采用交替最小二乘法把矩阵分解为一个道路隐含因子矩阵与一个时间隐含因子矩阵，并采用周期因子法预测未来的时间隐含因子，生成final_P.npy, final_Q.npy, 以及finalQ_pred.npy等中间文件。
+4. 4_feature_engineering.ipynb 在原始数据中进行统计性特征描述，弥补矩阵分解中造成的信息损失，提取路段之间的关系信息，生成train_table_\*\_1205.csv, test_table_1205.csv, partition.csv等中间文件。
 5. 5_Implicit_feedback.ipynb 将第3步提取的隐含因子以及第4步提取的统计性描述一起使用catboost建模，还原待预测时间段的路况堵塞状态。
 
 
