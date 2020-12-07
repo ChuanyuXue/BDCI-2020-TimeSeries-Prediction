@@ -9,7 +9,11 @@ This repository contains the 12th solution on BDCI 2020 Challenges for Congestio
 
 解决方案blog: 
 
+数据集下载链接: https://outreach.didichuxing.com/app-vue/dataList
+
 ## 解决方案
+运行前请将比赛提供的20190701.txt ~ 20190730.txt 放置在 ./data/traffic 目录下，topo.txt以及attr.txt放置在 ./data 目录下。
+
 
 1. 如下面文件结构所示，我们首先在 1_data_formating.ipynb 中把比赛方提供的txt数据转化为更容易处理的csv格式，生成名为train_table_\*.csv以及test_table.csv的中间文件。
 2. 2_matrix_generation.ipynb 文件把数据中出现过的所有时间点的状态放到一个(32 x 15584 x 720)的矩阵中，生成mat.npy的中间文件。
