@@ -52,7 +52,7 @@ This repository contains the 12th solution on BDCI 2020 Challenges for Congestio
 
 感谢 @supermanwasd 提供的代码运行环境，感谢UCONN - CSE5095 Machine Learning for Time Series Analysis 的Dongjin Song老师提供的论文阅读环节给予我启发。
 
-本项目库专门存放KDD2020挑战赛的相关代码文件，所有代码仅供各位同学学习参考使用。如有任何对代码的问题请邮箱联系：cs_xcy@126.com
+本项目库专门存放BDCI2020挑战赛的相关代码文件，所有代码仅供各位同学学习参考使用。如有任何对代码的问题请邮箱联系：cs_xcy@126.com
 
 If you have any issue please feel free to contact me at cs_xcy@126.com
 
